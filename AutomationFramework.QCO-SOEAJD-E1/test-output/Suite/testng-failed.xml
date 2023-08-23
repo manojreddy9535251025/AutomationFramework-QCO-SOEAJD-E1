@@ -5,6 +5,11 @@
     <listener class-name="genericUtilities.ListenersImplementation"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="SmokeSuite"/>
+      </run>
+    </groups>
     <classes>
       <class name="vtiger.OrganizationsTests.CreateOrgWithIndustryTest">
         <methods>

@@ -158,6 +158,7 @@ public class WebDriverUtilty {
 	{
 		Actions act = new Actions(driver);
 		act.dragAndDrop(srcElement, targetElemet).perform();
+	
 	}
 	
 	/**
