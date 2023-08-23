@@ -50,7 +50,7 @@ public class BaseClass {
 		 String BROWSER = pUtil.readDataFromPropertyFile("browser");
 		String URL = pUtil.readDataFromPropertyFile("url");
 		
-		if (BROWSER.equalsIgnoreCase("chrome")) 
+		if (BROWSER.equalsIgnoreCase("chrome"))  //Runtime Polymorphism
 		{
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
